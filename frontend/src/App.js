@@ -1,4 +1,3 @@
-
 import { Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
@@ -6,6 +5,8 @@ import ContactScreen from './screens/ContactScreen';
 import AboutScreen from './screens/AboutScreen';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import BusinessScreen from './screens/BusinessScreen';
+import PortGambleScreen from './screens/PortGambleScreen';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <Route path='/' component={HomeScreen} exact />
           <Route path='/contact' component={ContactScreen} exact />
           <Route path='/about' component={AboutScreen} exact />
+          <Route path='/business' component={BusinessScreen} exact />
+          <Route path='/portgamble' component={PortGambleScreen} exact />
         </Container>
       </main>
       <Footer />
