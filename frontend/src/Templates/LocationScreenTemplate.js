@@ -18,7 +18,7 @@ const LocationScreenTemplate = () => {
           <h2>Know the point of going to ____ </h2>
           <ol>
             <li>
-              <p>know</p>
+              <p>Know</p>
             </li>
             <li>
               <p>Know</p>

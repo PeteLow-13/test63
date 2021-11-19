@@ -5,6 +5,7 @@ import ContactScreen from './screens/ContactScreen';
 import AboutScreen from './screens/AboutScreen';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import BusinessScreen from './screens/BusinessScreen';
 import PortGambleScreen from './screens/PortGambleScreen';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' component={HomeScreen} exact />
           <Route path='/contact' component={ContactScreen} exact />
           <Route path='/about' component={AboutScreen} exact />
+          <Route path='/business' component={BusinessScreen} exact />
           <Route path='/portgamble' component={PortGambleScreen} exact />
         </Container>
       </main>

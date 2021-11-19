@@ -38,6 +38,7 @@ const BusinessScreen = () => {
             className='d-block w-100 fluid '
             src={leatherShop2PH}
             alt='First slide'
+            fluid
           />
         </Col>
       </Row>
@@ -47,6 +48,7 @@ const BusinessScreen = () => {
             className='d-block w-100 fluid '
             src={leatherShop2PH}
             alt='First slide'
+            fluid
           />
         </Col>
         <Col sm={12} md={6} lg={4} xl={3}>
@@ -54,6 +56,7 @@ const BusinessScreen = () => {
             className='d-block w-100 fluid '
             src={leatherShopPH}
             alt='First slide'
+            fluid
           />
         </Col>
       </Row>
