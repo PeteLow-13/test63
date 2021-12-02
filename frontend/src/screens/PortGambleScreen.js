@@ -6,7 +6,7 @@ import TagBar from '../components/TagBar';
 const PortGambleScreen = () => {
   return (
     <>
-      <Link className='btn btn-light my-3' to='/locationselect'>
+      <Link className='btn btn-light my-3' to='/destinations'>
         back to destinations
       </Link>
       <h1>What's the point of going to Port Gamble?</h1>
