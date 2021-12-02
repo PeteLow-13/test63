@@ -1,4 +1,7 @@
 import React from 'react';
+import { Row, Col, Image, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import TagBar from '../components/TagBar';
 
 const LocationScreenTemplate = () => {
   return (
