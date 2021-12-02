@@ -15,7 +15,7 @@ export const SidebarData = [
   },
   {
     title: 'Destinations',
-    path: '/locationselect',
+    path: '/destinations',
     icon: <SiIcons.SiOpenstreetmap />,
     cName: 'nav-text',
   },
@@ -29,6 +29,30 @@ export const SidebarData = [
     title: 'Contact',
     path: '/contact',
     icon: <ImIcons.ImMail2 />,
+    cName: 'nav-text',
+  },
+  {
+    title: 'Kingston',
+    path: '/kingston',
+    icon: <SiIcons.SiOpenstreetmap />,
+    cName: 'nav-text',
+  },
+  {
+    title: 'Port Gamble',
+    path: '/portgamble',
+    icon: <SiIcons.SiOpenstreetmap />,
+    cName: 'nav-text',
+  },
+  {
+    title: 'Point No Point',
+    path: '/pointnopoint',
+    icon: <SiIcons.SiOpenstreetmap />,
+    cName: 'nav-text',
+  },
+  {
+    title: 'Poulsbo',
+    path: '/poulsbo',
+    icon: <SiIcons.SiOpenstreetmap />,
     cName: 'nav-text',
   },
 ];
