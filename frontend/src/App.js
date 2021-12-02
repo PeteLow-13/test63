@@ -7,6 +7,10 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import BusinessScreen from './screens/BusinessScreen';
 import PortGambleScreen from './screens/PortGambleScreen';
+import KingstonScreen from './screens/KingstonScreen';
+import PointNoPointScreen from './screens/PointNoPointScreen';
+import PoulsboScreen from './screens/PoulsboScreen';
+import DestinantionScreen from './screens/DestinantionScreen';
 
 function App() {
   return (
@@ -17,8 +21,12 @@ function App() {
           <Route path='/' component={HomeScreen} exact />
           <Route path='/contact' component={ContactScreen} exact />
           <Route path='/about' component={AboutScreen} exact />
+          <Route path='/destinations' component={DestinantionScreen} exact />
           <Route path='/business' component={BusinessScreen} exact />
           <Route path='/portgamble' component={PortGambleScreen} exact />
+          <Route path='/kingston' component={KingstonScreen} exact />
+          <Route path='/pointnopoint' component={PointNoPointScreen} exact />
+          <Route path='/poulsbo' component={PoulsboScreen} exact />
         </Container>
       </main>
       <Footer />
