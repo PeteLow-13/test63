@@ -14,7 +14,7 @@ const PointNoPointScreen = () => {
         <Col md={12}>
           <Image
             src='../images/PointNoPoint/01PointNoPointMainFullSize.jpg'
-            alt=''
+            alt='Point No Point lighthouse'
             fluid
           />
         </Col>
@@ -22,7 +22,7 @@ const PointNoPointScreen = () => {
 
       <Row className='know' id='know'>
         <Col>
-          <h2>Know the point of going to ____ </h2>
+          <h2>Know the point of going to Point No Point </h2>
           <ol>
             <li>
               <p>Know</p>
@@ -42,9 +42,13 @@ const PointNoPointScreen = () => {
 
       <Row className='go' id='go'>
         <Col md={12}>
-          <h2>How to go Port Gamble</h2>
+          <h2>How to go Point No Point</h2>
 
-          <Image src='' alt='' fluid />
+          <Image
+            src='../images/PointNoPoint/02PointNoPointGoSign.jpg'
+            alt='Poin No Point Sign'
+            fluid
+          />
           <h3>From...</h3>
           <ul>
             <li></li>
@@ -71,10 +75,13 @@ const PointNoPointScreen = () => {
       </Row>
 
       <Row className='eat' id='eat'>
-        <h2>Where to eat Port Gamble</h2>
+        <h2>Where to eat Point No Point</h2>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/03PointNoPointEatGrill.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -87,7 +94,10 @@ const PointNoPointScreen = () => {
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/04PointNoPointEatJulia.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -100,7 +110,10 @@ const PointNoPointScreen = () => {
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/05PointNoPointEatLittleBoston.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -115,10 +128,13 @@ const PointNoPointScreen = () => {
       </Row>
 
       <Row className='drink' id='drink'>
-        <h2>Where to drink Port Gamble</h2>
+        <h2>Where to drink Point No Point</h2>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/06PointNoPointDrinkGril.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -131,7 +147,10 @@ const PointNoPointScreen = () => {
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/07PointNoPointDrinkBrewery.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -144,7 +163,10 @@ const PointNoPointScreen = () => {
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/08PointNoPointDrinkCenterBar.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -158,10 +180,13 @@ const PointNoPointScreen = () => {
       </Row>
 
       <Row className='play' id='play'>
-        <h2>Where to play Port Gamble</h2>
+        <h2>Where to play Point No Point</h2>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/09PointNoPointPlayNorwegianSign.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -174,7 +199,10 @@ const PointNoPointScreen = () => {
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/10PointNoPointPlayBirdSign.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -187,7 +215,10 @@ const PointNoPointScreen = () => {
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/11PointNoPointPlayDriftwoodHouses.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -202,10 +233,13 @@ const PointNoPointScreen = () => {
       </Row>
 
       <Row className='stay' id='stay'>
-        <h2>Where to stay Port Gamble</h2>
+        <h2>Where to stay Point No Point</h2>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/12PointNoPointStayLighthouseQuarters.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -223,7 +257,10 @@ const PointNoPointScreen = () => {
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/13PointNoPointStayAirBNB.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -241,7 +278,10 @@ const PointNoPointScreen = () => {
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src='' alt='' />
+            <Card.Img
+              src='../images/PointNoPoint/14PointNoPointStayPointHotel.jpg'
+              alt=''
+            />
             <Card.Body>
               <Card.Title>Name</Card.Title>
               <Card.Text className='address'>address</Card.Text>
@@ -259,10 +299,14 @@ const PointNoPointScreen = () => {
         </Col>
         <TagBar />
       </Row>
-      <h1>That's the point of going to _____!</h1>
+      <h1>That's the point of going to Point No Point!</h1>
       <Row>
         <Col md={12}>
-          <Image src='../images' alt='' fluid />
+          <Image
+            src='../images/PointNoPoint/15PointNoPointEndDriftwoodHouse.jpg'
+            alt=''
+            fluid
+          />
         </Col>
       </Row>
     </>
