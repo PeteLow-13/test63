@@ -6,13 +6,13 @@ import PointNoPointCard from '../components/PointNoPointCard';
 import PortGambleCard from '../components/PortGambleCard';
 import KingstonCard from '../components/KingstonCard';
 
-const DestinantionScreen = () => {
+const DestinationScreen = () => {
   return (
     <>
       <Link to='/' className='btn btn-light'>
         Home
       </Link>
-      <h1>Destinantions</h1>
+      <h1>Destinations</h1>
       <Row>
         <Col sm={12} md={12} lg={6} xl={6}>
           <PoulsboCard />
@@ -33,4 +33,4 @@ const DestinantionScreen = () => {
   );
 };
 
-export default DestinantionScreen;
+export default DestinationScreen;
