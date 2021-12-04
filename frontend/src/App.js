@@ -10,7 +10,7 @@ import PortGambleScreen from './screens/PortGambleScreen';
 import KingstonScreen from './screens/KingstonScreen';
 import PointNoPointScreen from './screens/PointNoPointScreen';
 import PoulsboScreen from './screens/PoulsboScreen';
-import DestinantionScreen from './screens/DestinantionScreen';
+import DestinationScreen from './screens/DestinationScreen';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Route path='/' component={HomeScreen} exact />
           <Route path='/contact' component={ContactScreen} exact />
           <Route path='/about' component={AboutScreen} exact />
-          <Route path='/destinations' component={DestinantionScreen} exact />
+          <Route path='/destinations' component={DestinationScreen} exact />
           <Route path='/business' component={BusinessScreen} exact />
           <Route path='/portgamble' component={PortGambleScreen} exact />
           <Route path='/kingston' component={KingstonScreen} exact />
